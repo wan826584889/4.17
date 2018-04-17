@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 4rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background: #e44348;
+    display: flex;
+    color: #fff;
+    height: 4rem;
+    line-height: 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    a {
+        flex: 2;
+        color: #fff;
+        font-size: 2.2rem;
+        text-indent: 1rem;
+        font-weight: 100;
+    }
+    i {
+        flex: 1;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4rem;
+        flex: 1;
+    }
+    .ipt {
+        flex: 5;
+        input {
+            border: 0;
+            outline: 0;
+            height: 60%;
+            width: 90%;
+            border-radius: 2rem;
+            text-indent: 40%;
+            margin-left: 5%;
+        }
+         ::-webkit-input-placeholder {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.swiper-container {
+    padding-bottom: 3rem;
+    border-bottom: 0.4rem solid #f0f2f1;
+    .list {
+        ul {
+            li {
+                display: flex;
+                a {
+                    flex: 1;
+                    dd {
+                        padding: 1rem 1rem 0.5rem;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    dt {
+                        font-size: 1.5rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.box,
+.box1 {
+    overflow: hidden;
+    .Iscroll {
+        display: flex;
+        width: 1000px;
+        dl {
+            flex: 10%;
+            text-align: center;
+            flex-shrink: 0;
+            background: #f8f8f8;
+            margin: 0.4rem;
+            dt:first-child {
+                font-weight: 700;
+            }
+            dd {
+                img {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    display: flex;
+    border-top: 0.02rem solid #ccc;
+    background: #fff;
+    position: sticky;
+    bottom: 0;
+    a {
+        flex: 1;
+        dl {
+            text-align: center;
+            color: #878b8a;
+            dd {
+                font-size: 2.3rem!important;
+                padding: 0.5rem;
+            }
+            dt {
+                font-size: 1.5rem!important;
+            }
+        }
+    }
+    a:first-child {
+        dl {
+            color: #ec5d4c;
+        }
+    }
+}
